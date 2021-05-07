@@ -19,5 +19,6 @@ jobs:
           
           for script in *.py
             do
+              dos2unix ${script}
               python ${script}
             done
