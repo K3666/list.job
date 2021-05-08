@@ -17,7 +17,7 @@ jobs:
         
           set -x
           
-          apt-get -y install dos2unix
+          sudo apt-get -y install dos2unix
           
           for script in *.py
             do
