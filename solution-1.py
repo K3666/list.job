@@ -40,4 +40,3 @@ jobs = [['a', 4, 20], # jobs
 
 
 print ("The following is the maximum profit sequence of the jobs")
-Sequencing (works, 3)
