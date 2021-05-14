@@ -16,7 +16,7 @@ def sequencing (works, slots):
           #find available solt
           for j in range (min(slot - 1,works[i][1]-1),-1, -1):
             #solt available
-          if reslut [j] is False:
+          if reslut[j] is False
             result[j] = True
             job.append(job[i][0])
             break
