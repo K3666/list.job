@@ -16,7 +16,7 @@ def sequencing (works, slots):
   job = []
         
   #for each job
-   for i in range(len(works)):
+   for 'i' in range (len (works))
           
   #find available solt
    for j in range (min(slot - 1,works[i][1]-1),-1, -1)
