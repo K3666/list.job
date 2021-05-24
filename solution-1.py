@@ -20,7 +20,8 @@ def sequencing (works, slots):
     print(works[i])
           
   #find available solt
-   for j in range (min(slot - 1,works[i][1]-1),-1, -1)
+   for j in range(min(slot - 1,works[i][1]-1),-1, -1)
+    print(works[i-1] - works[i])
           
   #solt available
    if reslut[j] is False
