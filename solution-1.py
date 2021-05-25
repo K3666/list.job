@@ -20,14 +20,14 @@ def sequencing (works, slots):
     print(works[i])
           
   #find available solt
-   for j in range(min(slot - 1,works[i][1]-1),-1, -1)
-    print(works[i-1] - works[i])
+  for j in range(min(slot-1, works[i][1]-1), -1, -1):
           
-  #solt available
-   if reslut[j] is False
-     result[j] = True
-     job.append(job[i][0])
-  break
+      #solt available
+      if reslut[j] is False:
+         result[j] = True
+         job.append(job[i][0])
+         break
+          
   print(job)
             
   #test the function
