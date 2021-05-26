@@ -30,9 +30,12 @@ def sequencing (works, slots):
           
   print(job)
             
-  #test the function
-   jobs=[['a',4,20], #jobs
-     ['b',1,10],
-     ['c',1,40],
-     ['d',1,30]] 
-     print("the following is the maximun profit sequence of the jobs ")
+#test the function
+jobs = [['a',4,20], #jobs
+   ['b',1,10],
+   ['c',1,40],
+   ['d',1,30]]
+
+print("the following is the maximum profit sequence of the jobs ")
+     
+ 
