@@ -17,22 +17,22 @@ print("4.divide")
 
 while "true":
   # take input from the user
-  Z = input("Enter Z(1/2/3/4): ")
-  # check if Z is one of the four options
-  if Z in ('1', '2', '3', '4'):
+  value = input("Enter the value(1/2/3/4): ")
+  # check if the value is one of the four options
+  if the value in ('1', '2', '3', '4'):
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     
-    if Z == '1':
+    if value == '1':
         print(num1, "+", num2, "=", add(num1, num2))
      
-    elif Z == '2':
+    elif value == '2':
         print(num1, "-", num2, "=", subtract(num1, num2))
         
-    elif Z == '3':
+    elif value == '3':
         print(num1, "*", num2, "=", multiply(num1, num2))
           
-    elif Z == '4':
+    elif value == '4':
         print(num1, "/", num2, "=", divide(num1, num2))
     break
   else:
