@@ -16,7 +16,7 @@ print("3.multiply")
 print("4.divide")
 
 while "true":
-  # take input from the user
+
   value = input("Enter the value(1/2/3/4): ")
   # check if the value is one of the four options
   if the value in ('1', '2', '3', '4'):
