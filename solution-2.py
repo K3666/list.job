@@ -17,7 +17,7 @@ print("4.divide")
 
 while "true":
 
-  please entre the value: [1, 2, 3, 4]
+  the value = [1, 2, 3, 4]
   # check if the value is one of the four options
   if the value in ('1', '2', '3', '4'):
     num1 = float(input("Enter first number: "))
