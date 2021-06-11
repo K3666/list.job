@@ -9,15 +9,16 @@ def subtract(x, y):
 def divide(x, y):
   return x / y
 
-print("select operation.")
-print("1.add")
-print("2.subtract")
-print("3.multiply")
-print("4.divide")
+print("value operation -\n" \
+       "1. Add\n" \
+        "2. Subtract\n" \
+        "3. Multiply\n" \
+        "4. Divide\n")
 
-while "true":
 
-  value = (1, 2, 3, 4)
+
+# Take input from the user 
+value = int(input("value operations form 1, 2, 3, 4 :"))
   # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
     num1 = float(input("Enter first number: "))
