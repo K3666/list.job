@@ -18,11 +18,14 @@ print("value operation -\n" \
 
 
 # Take input from the user 
-value = int(input("value operations form 1, 2, 3, 4 :"))
+value = input("Enter value 1, 2, 3, 4 :"))
+Enter value (1/2/3/4):3
   # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+    num1 = int(input("Enter first number: "))
+    Enter first number: 50
+    num2 = int(input("Enter second number: "))
+    Enter second number: 30
     
     if value == '1':
         print(num1, "+", num2, "=", add(num1, num2))
@@ -38,4 +41,6 @@ value = int(input("value operations form 1, 2, 3, 4 :"))
     break
   else:
      print("invalid input ")
+      
+50 * 30 = 1500
           
