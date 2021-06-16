@@ -18,8 +18,7 @@ print("value operation -\n" \
 
 
 # Take input from the user 
-value = input("Enter value 1, 2, 3, 4 :"))
-Enter value (1/2/3/4):3
+value = input("Enter value: ")
   # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
     num1 = int(input("Enter first number: "))
