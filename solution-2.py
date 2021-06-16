@@ -16,8 +16,7 @@ print("value operation -\n" \
         "4. Divide\n")
 
 
-
-# Take input from the user 
+ 
 value = "write value here"
   # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
