@@ -17,7 +17,7 @@ print("value operation -\n" \
 
 
  
-value = "write value here"
+value = "1, 2, 3, 4"
   # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
     num1 = int(input("Enter first number: "))
