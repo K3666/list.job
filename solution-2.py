@@ -1,12 +1,10 @@
-# program make a simple calulator
-# this function adds two numbers
-def add(x, y):
+def add(x,y):
   return x + y
-# this function subtracts two numbers 
-def subtract(x, y):
+def subtract(x,y):
   return x - y
-# this function divides two numbers 
-def divide(x, y):
+def multiply(x,y):
+  return x * y
+def divide(x,y):
   return x / y
 
 print("value operation -\n" \
@@ -18,12 +16,9 @@ print("value operation -\n" \
 
  
 value = "1"
-  # check if the value is one of the four options
   if value = ('1', '2', '3', '4'):
     num1 = int(input("Enter first number: "))
-    Enter first number: 50
     num2 = int(input("Enter second number: "))
-    Enter second number: 30
     
     if value == '1':
         print(num1, "+", num2, "=", add(num1, num2))
@@ -40,5 +35,5 @@ value = "1"
   else:
      print("invalid input ")
       
-50 * 30 = 1500
+
           
